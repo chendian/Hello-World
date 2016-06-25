@@ -1,8 +1,8 @@
-SRC = hello_world.c
-OBJ = hello_world.o
+SRC = hello.c
+OBJ = hello.o
 CC = gcc
 
-all: hello_world.c
+all: $(OBJ)
 	$(CC) -o $(OBJ) $(SRC)
 	
 clean:
